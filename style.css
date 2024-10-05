@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#nav-one{
+    height: 100%;
+    width: 43%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-one h3{
+    font-size: 16px;
+    font-weight: 100;
+}
+#nav-two{
+    height: 100%;
+    width: 42%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-two h3{
+    font-size: 16px;
+    font-weight: 100;
+}
+#content{
+    padding: 0px 30px;
+}
+#content h3{
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 600;
+}
+#content h1{
+    padding-left: 10px;
+    margin-top: 20px;
+    font-size: 100px;
+    line-height: 90px;
+    font-weight: 500;
+}
+#case{
+    margin-top: 100px;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case>h3{
+    font-size: 16px;
+    font-weight: 100;
+}
+#line{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#line h3{
+    font-size: 16px;
+    font-weight: 100;
+}
+#line h3:nth-of-type(1){
+    height: 1px;
+    width: 100px;
+    background-color: black;
+}
+#data{
+    height: 500px;
+    width: 100%;
+    /* background-color: red; */
+    padding: 30px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+#data-left{
+    height: 500px;
+    width: 400px;
+    /* background-color: yellow; */
+    
+}
+#data-left img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+#data-right{
+    height: 400px;
+    width: 400px;
+    /* background-color: aqua; */
+}
+#data-right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+#contact-Design{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Sketch h3{
+    margin-top: 5px;
+    font-weight: 100;
+    
+}
+#Sketch h4{
+    font-weight: 100;
+    margin-top: 5px;
+}
+#symbol button{
+    padding: 8px 16px;
+    border-radius: 50px;   
+}
+#frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#io h3{
+    margin-top: 5px;
+    font-weight: 100;
+}
+#io h4{
+    font-weight: 100;
+    margin-top: 5px;
+}
+#user button{
+    padding: 8px 16px;
+    border-radius: 50px; 
+    background-color: black; 
+    color: white;
+}
